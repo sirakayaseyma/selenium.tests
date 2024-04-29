@@ -87,6 +87,16 @@ public class workshop1 {
         zaSort.click();
         Thread.sleep(2000);
 
+        // sepete ürün ekleme
+        WebElement item3  = webDriver.findElement(By.id(globalConstants.ITEM3_ID));
+        item3.click();
+        Thread.sleep(2000);
+        WebElement addToCart = webDriver.findElement(By.xpath(globalConstants.ADDTOCART));
+        addToCart.click();
+        Thread.sleep(2000);
+
+
+
         //sayfayı kapatır.
         webDriver.quit();
 

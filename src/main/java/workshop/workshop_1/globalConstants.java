@@ -9,4 +9,9 @@ public class globalConstants {
     public static final String DROPDOWN_MENU = "product_sort_container";
 
     public static final String ZA_SORT = "//*[@id=\"inventory_filter_container\"]/select/option[2]";
+
+    public static final String ADDTOCART = "//*[@id=\"inventory_item_container\"]/div/div/div/button";
+
+    public static final String ITEM3_ID = "item_3_title_link";
+
 }
