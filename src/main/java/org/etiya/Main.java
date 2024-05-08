@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.openqa.selenium.By.id;
-
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 

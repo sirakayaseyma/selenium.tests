@@ -13,5 +13,7 @@ public class globalConstants {
     public static final String ADDTOCART = "//*[@id=\"inventory_item_container\"]/div/div/div/button";
 
     public static final String ITEM3_ID = "item_3_title_link";
+    public static final String BUTTON_XPATH = "//*[@id='menu_button_container']/div/div[3]/div/button";
+    public static final String LOGOUT = "logout_sidebar_link";
 
 }
